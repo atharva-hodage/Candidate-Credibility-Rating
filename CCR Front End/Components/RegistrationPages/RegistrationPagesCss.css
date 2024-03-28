@@ -1,0 +1,91 @@
+.container-candidate {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-top: 5px;
+  text-align: center;
+  height: 520px;
+  margin-bottom: 20px;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  margin-top: 20px;
+  margin: auto;
+  padding: auto;
+  border-radius: 15px;
+  /* box-shadow: 0px 4px 9px rgba(71, 71, 71, 0.2); */
+}
+
+/* .form .TextField {
+  margin-bottom: 20px;
+} */
+
+.loginForm .candregbtn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+.loginForm .Button:hover {
+  background-color: #0056b3;
+}
+
+.registrationForm {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.registrationForm .Button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex-shrink: 0;
+}
+.buttonSaveResponse {
+  margin: auto;
+}
+
+.styled-inputcandidatepassword {
+  /* margin-right: 10px; */
+  width: 50%;
+  padding: 10px;
+  margin-bottom: auto;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.candidatefield {
+  margin-bottom: auto;
+  margin-top: 20px;
+}
+
+.candidatefield input.candreg {
+  width: 50%;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: auto;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

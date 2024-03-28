@@ -1,0 +1,81 @@
+
+.mainContainerOfDashboard{
+  width: 100%;
+  display: flex;
+}
+.sidebar {
+    top: 0;
+    left: 0;
+    width: 15%; /* Adjust the width as needed */
+    min-width: 220px;
+    /* background-color: #007bff; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .sidebarLogo {
+    /* display: grid; */
+    /* place-items: center; */
+    height: 100px;
+    width: 100px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Mochiy Pop P one', sans-serif;
+  }
+  
+  .sidebarMenu {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .sidebarMenuIndicator {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: calc(100% - 40px);
+    border-radius: 10px;
+    /* background-color: #83b6f5; */
+    z-index: -1;
+    transform: translateX(-50%);
+    transform: translateY(0); /* This will be updated dynamically */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .sidebarMenuItem {
+    display: flex;
+    align-items: center;
+    place-content: flex-start;
+    padding: 1rem 3rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #555555;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .sidebarMenuItem.active {
+    color: #fff;
+  }
+  
+  .sidebarMenuItemIcon {
+    margin-right: 1rem;
+    font-size: 1.75rem;
+  }
+  
+  .sidebarMenuItemText {
+    /* Add any additional styles you want for the text here */
+    color: black;
+    font-size: 16px;
+  }
+  
+  .dashBoardTitle{
+    text-align: center;
+  }
+  .rightSideOfDrawer{
+    flex: 1; /* Takes up the remaining space */
+    background-color: #f5f5f5; /* Adjust the background color as needed */
+    padding: 20px; /* Add padding as needed */
+    /* overflow-y: scroll; */
+  }

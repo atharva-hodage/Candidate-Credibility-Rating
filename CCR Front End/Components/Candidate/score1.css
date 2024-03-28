@@ -1,0 +1,102 @@
+.speedometer {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  background-color: #ddd;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+.dial {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #fff;
+  clip-path: polygon(50% 100%, 100% 0%, 0% 0%);
+  transform: rotate(60deg);
+  transform-origin: 50% 50%;
+}
+
+.needle {
+  position: relative;
+  width: 2px;
+  height: 50%;
+  background-color: red;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%) rotate(60deg);
+  transform-origin: 50% 100%;
+  animation: rotate-needle 2s ease infinite;
+}
+
+.labels {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 16px;
+  color: #000;
+  position: absolute;
+}
+
+.label:nth-child(1) {
+  top: 95%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.label:nth-child(2) {
+  top: 70%;
+  left: 10%;
+}
+.label:nth-child(3) {
+  top: 25%;
+  left: 10%;
+}
+.label:nth-child(4) {
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.label:nth-child(5) {
+  top: 25%;
+  right: 10%;
+}
+.label:nth-child(6) {
+  top: 70%;
+  right: 10%;
+}
+
+.circularprogressbar{
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.viewScoreGraphs{
+  display: flex;
+  flex-direction: row;
+}
+
+.circularbox{
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  margin: 10px;
+}
+.circularboxCategoryName{
+  border: 1px;
+  border-radius: 5px;
+  background-color: #007bff;
+  padding: 20px;
+  margin: 10px;
+}

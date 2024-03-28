@@ -1,0 +1,26 @@
+/* .viewCompanyTableStyle{
+    width: 100%;
+    table-layout: auto;
+    page-break-inside: auto;
+}
+.viewCompanyTableContainer{
+    width: 100%
+} */
+@media print {
+    /* Define page size and margins */
+    @page {
+      size: A4; /* You can adjust the page size as needed */
+      margin: 1cm;
+    }
+  
+    /* Apply styles for the table to break across pages */
+    .viewCompanyTableStyle {
+        page-break-inside: auto;
+    }
+  
+    /* Apply styles to the header to repeat on each page */
+    .TableHead {
+      display: table-row-group;
+    }
+  }
+  

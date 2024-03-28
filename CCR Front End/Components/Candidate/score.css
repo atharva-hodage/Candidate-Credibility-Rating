@@ -1,0 +1,44 @@
+/* Add a CSS file, e.g., viewscore.css, and include it in your component */
+/* viewscore.css */
+
+/* Styles for the score */
+.score {
+  font-size: 36px;
+  font-weight: bold;
+  color: #007bff; /* Blue color, you can change it */
+  margin-top: 20px;
+}
+
+/* Styles for the table */
+.table-container {
+  width: 50%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc; /* Border color, you can change it */
+}
+
+.table-container th {
+  background-color: #f2f2f2; /* Header background color, you can change it */
+  font-weight: bold;
+}
+
+/* Style for even rows */
+.table-container tr:nth-child(even) {
+  background-color: #f2f2f2; /* Row background color, you can change it */
+}
+
+/* Style for odd rows */
+.table-container tr:nth-child(odd) {
+  background-color: #fff; /* Row background color, you can change it */
+}
+
+/* Hover effect for rows */
+.table-container tr:hover {
+  background-color: #e0e0e0; /* Hovered row background color, you can change it */
+}

@@ -1,0 +1,22 @@
+.notificationBox {
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 200px;
+    overflow: auto;
+  }
+  
+  .notificationBox ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .notificationBox li {
+    margin: 5px 0;
+  }
+  

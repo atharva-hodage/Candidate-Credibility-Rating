@@ -1,0 +1,83 @@
+/* NewRegistrationRequest.css */
+.Body {
+  font-family: "Poppins", sans-serif;
+}
+.TableContainer {
+  margin-right: 200px;
+}
+
+.TableTable b {
+  font-family: "Poppins", sans-serif;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.approve-button,
+.reject-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.reject-button {
+  background-color: #f44336;
+}
+
+.approve-button:hover,
+.reject-button:hover {
+  opacity: 0.8;
+}
+
+.TableTable {
+  width: 50%;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  font-family: "Poppins", sans-serif;
+}
+
+.TableTable th,
+.TableTable td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.TableTable th {
+  background-color: #f5f5f5;
+}
+
+.TableTable tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.TableTable tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+.buttonContainer {
+  text-align: right;
+  margin: 10px;
+}
+.view {
+  color: #007bff;
+}
+.buttonContainer .view {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #007bff;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-color: black;
+}

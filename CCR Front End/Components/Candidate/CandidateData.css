@@ -1,0 +1,129 @@
+/* .divCandidateData{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.candidateDataGrid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    height: 150px;
+  }
+  .candidateAvatarGrid{
+    width: 25%;
+    size: 0vmax;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+   .candidateAvatarGrid img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+  }
+
+  .candidateInfoGrid{
+    width: 75%;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+
+  }
+    .candidateInfoGrid h4 {
+    margin: 0;
+    padding: 5px 0;
+  }
+  
+  .candidateInfoGridUp {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  } */
+
+.divCandidateData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  background-color: #f0f0f0;
+}
+
+.candidateDataGrid {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.candidateAvatarGrid {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.candidateAvatarGrid img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+
+.candidateInfoGrid {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.candidateInfoGrid h4 {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.candidateInfoGridUp {
+  padding-bottom: 10px;
+}
+
+.lastButtons {
+  text-align: center;
+  /* Center align the buttons horizontally */
+  margin-top: 20px;
+  /* Add some top margin for spacing */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.lastButtons button {
+  padding: 10px 20px;
+  /* Add padding to the buttons for spacing */
+  margin: 5px;
+  /* Add margin around the buttons for spacing */
+  border: none;
+  /* Remove the default button border */
+  cursor: pointer;
+  /* Change the cursor to a pointer on hover */
+  background-color: #007bff;
+  /* Set the background color */
+  color: #fff;
+  /* Set the text color to white */
+  border-radius: 5px;
+  /* Add rounded corners to the buttons */
+  text-decoration: none;
+  /* Remove underlines from links */
+}
+
+.lastButtons button:hover {
+  background-color: #0056b3;
+  /* Change the background color on hover */
+}

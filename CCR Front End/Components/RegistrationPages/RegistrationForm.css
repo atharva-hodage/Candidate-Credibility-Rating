@@ -1,0 +1,70 @@
+.registration-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.untoggled-button {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.toggled-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* .container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.loginForm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.field {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid-left, .grid-right {
+  width: 48%;
+}
+
+.candreg, .styled-inputcandidatepassword {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.candregbtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.candregbtn:hover {
+  opacity: 0.8;
+}
+
+.candregbtn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+ */

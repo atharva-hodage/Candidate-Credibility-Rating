@@ -1,0 +1,172 @@
+/* RatingForm.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+/* Header Styles */
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="number"] {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button[type="submit"],
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover,
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  white-space: pre-wrap; 
+}
+
+table th {
+  background-color: #a6cdf7;
+  color: #000000;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+/* Category Edit Styles */
+table td button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-right: 5px;
+  font-size: 14px;
+
+  display: inline-block;
+
+}
+
+table td button.edit {
+  color: #007bff;
+}
+
+table td button.delete {
+  color: #ff0000;
+}
+
+/* Question Edit Styles */
+table td input[type="text"],
+table td input[type="number"] {
+  width: 80%;
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+table td button.save {
+  color: #00cc00;
+}
+
+table td button.cancel {
+  color: #ff6600;
+}
+
+/* Save Category Weightages Button */
+button.save-all {
+  background-color: #00cc00;
+}
+
+/* Cancel Edit Button */
+button.cancel-edit {
+  background-color: #ff6600;
+}
+
+/* Apply similar styles to the Category Name <h4> element */
+.category-header {
+  font-size: 18px;
+
+  text-align: left;
+
+  /* padding: 10px; */
+  /* margin-right: 380px; */
+  margin-left: 0;
+  margin-bottom: -42px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px; /* You can adjust the padding as needed */
+}
+
+/* Rest of your CSS styles ... */
+.addQuestion {
+  width: 730px;
+}
+.editCategory {
+  margin-right: 0px;
+  float: right;
+  width: 100px;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  margin: -8px 5px 15px 1px;
+  cursor: pointer;
+}
+.editCategory:hover {
+  background-color: #57d25d;
+}

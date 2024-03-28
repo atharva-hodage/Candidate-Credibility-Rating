@@ -1,0 +1,103 @@
+/* RatingForm.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+input[type="text"] {
+  font-size: medium;
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+.edit-input {
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.edit-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.edit-buttons button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.edit-buttons button.cancel {
+  background-color: #dc3545;
+}
+
+.edit-buttons button:hover {
+  background-color: #218838;
+}
+
+.fa-icon {
+  margin-right: 5px;
+}

@@ -1,0 +1,74 @@
+/* .divAboveHistoryTable{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.historyTableContainer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+
+.historyTableTable{
+    max-width: 900px;
+    margin: "0 auto"
+}
+
+.historyTableHead{
+    text-decoration: solid;
+    color:red;
+
+} */
+
+/* General styles for centering content */
+
+.divAboveHistoryTable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px; /* Add some top margin for spacing */
+  }
+  
+  .historyTableContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px; /* Add some top margin for spacing */
+  }
+  
+  /* Styles for the history table */
+  
+  .historyTableTable {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .historyTableHead {
+    /* Use border-bottom for decoration instead of text-decoration */
+    border: 2px solid black;
+    font-weight: bold; /* Make the header text bold */
+  }
+  
+  /* Style the table rows and cells */
+  
+  .historyTableTable tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background color */
+  }
+  
+  .historyTableTable th,
+  .historyTableTable td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Center align the content in table cells */
+  
+  .historyTableTable th {
+    background-color: #f0f0f0; /* Header background color */
+  }
+  
